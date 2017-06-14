@@ -1,0 +1,28 @@
+html {
+  display: table;
+  margin: auto;
+}
+body {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #485d7f;
+}
+#uno, #dos {
+  border: solid 5px;
+  border-radius: 3%;
+  padding: 10px;
+  border-color: #5E747F;
+  background-color: #4a87a8;
+  color: #5E747F;
+  }
+span {
+  display: inline-block;
+  align-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
