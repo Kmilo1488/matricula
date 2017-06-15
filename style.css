@@ -8,6 +8,9 @@ body {
   text-align: center;
   background-color: #485d7f;
 }
+h1, h2 {
+  color: #7495CC;
+}
 #uno, #dos, #fdos {
   border: solid 5px;
   border-radius: 3%;
