@@ -1,46 +1,76 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Matricula</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<div id="contenedor">
-		<h1> Formulario de Registro </h1>
-		<div id="uno">
-			<p> Por favor diligencie todos los campos </p>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Matricula</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div id="contenedor">
+			<h1> Formulario de Registro </h1>
+			<div id="uno">
+				<p> Por favor diligencie todos los campos </p>
+			</div>
+			<h2> Datos </h2>
+			<div id="dos">
+				<form>
+					<span> Nombres <br>
+						<input type="text" name="Nombres"><br>
+					</span>
+					<span> Apellidos <br>
+						<input type="text" name="Apellidos"><br>
+					</span>
+					<br>
+					<span> email <br>
+						<input type="email" name="email"><br>
+					</span>
+					<span> Facebook <br>
+						<input type="text" name="Facebook">
+					</span>
+					<br>
+				</span> Genero <br>
+				<input type="radio" name="gender" value="masculino"> Masculino
+				<input type="radio" name="gender" value="femenino"> Femenino<br>
+				Estudios <br>
+				<input type="checkbox" name="estudio1" value="Bachiller">Bachiller
+				<input type="checkbox" name="estudio2" value="Tecnico">Tecnico
+				<input type="checkbox" name="estudio3" value="Profecional">Profecional
+				<input type="checkbox" name="estudio4" value="Otro">Otro<br>
+				<hr>
+				<input type="button" value="Cancelar">
+				<input type="button" value="Enviar">
+			</form>
 		</div>
-		<h2> Datos </h2>
-		<div id="dos">
-			<form>
-				<span> Nombres <br>
-					<input type="text" name="Nombres"><br>
+		<div>
+			<h2>Detalles</h2>
+			<form id="fdos">
+				<span>
+					<label for="peticion">Peticion</label>
+					<select name="peticion" id="peticion">
+				    <option>Seleccione</option>
+				    <option value="1">Ingreso</option>
+				    <option value="2">Reintegro</option>
+				    <option value="3">Retiro</option>
+				    <option value="4">Otros</option>
+				  </select><br>
 				</span>
-				<span> Apellidos <br>
-					<input type="text" name="Apellidos"><br>
+				<span>
+					<label for="fecha">Fecha</label><br>
+					<input type="date" id="fecha">
+				</span><br>
+				<label for="observaciones">Observaciones</label><br>
+				<textarea name="observaciones" id="observaciones" cols="80" placeholder="Cuentenos su caso ..." rows="10"> 
+				</textarea><br>
+				<span>
+					<label for="paginaweb">Pagina Web</label><br>
+					<input type="url" name="paginaweb" placeholder="web">
 				</span>
-				<br>
-				<span> email <br>
-					<input type="text" name="email"><br>
+				<span>
+					<label for="#radicado"># Radicado</label><br>
+					<input type="text" name="#radicado" placeholder="radicado">
 				</span>
-				<span> Facebook <br>
-					<input type="text" name="Facebook">
-				</span>
-				<br>
-			</span> Genero <br>
-			<input type="radio" name="gender" value="masculino"> Masculino
-			<input type="radio" name="gender" value="femenino"> Femenino<br>
-			Estudios <br>
-			<input type="checkbox" name="estudio1" value="Bachiller">Bachiller
-			<input type="checkbox" name="estudio2" value="Tecnico">Tecnico
-			<input type="checkbox" name="estudio3" value="Profecional">Profecional
-			<input type="checkbox" name="estudio4" value="Otro">Otro<br>
-			<hr>
-			<input type="button" value="Cancelar">
-			<input type="button" value="Enviar">
-		</form>
+			</form>
+		</div>
 	</div>
-</div>
-</body>
-</html>
+	</body>
+	</html>

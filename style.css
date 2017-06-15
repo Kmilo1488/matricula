@@ -8,13 +8,13 @@ body {
   text-align: center;
   background-color: #485d7f;
 }
-#uno, #dos {
+#uno, #dos, #fdos {
   border: solid 5px;
   border-radius: 3%;
   padding: 10px;
   border-color: #5E747F;
   background-color: #4a87a8;
-  color: #5E747F;
+  color: #70CDFF;
   }
 span {
   display: inline-block;
